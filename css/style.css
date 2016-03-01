@@ -1,0 +1,47 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #2376ae;
+	background-image: linear-gradient(-170deg,#2376ae 0%,#c16ecf 100%);
+    background: linear-gradient(135deg,#a7fce7 0%,#85ccb5 32%,#423560 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	font-family: Lato;
+	color: white;
+
+}
+
+
+html {
+	height: 100%;
+}
+
+#tag{
+	text-align: center;
+	padding-top: 10px;
+	text-shadow:0px 4px 3px rgba(0,0,0,0.4),
+	            0px 8px 13px rgba(0,0,0,0.1),
+	            0px 18px 23px rgba(0,0,0,0.1);
+
+}
+
+h1{
+	font-weight: 700;
+	font-size: 5em;
+}
+
+hr{
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+a {
+  color: #fff;
+  text-decoration: underline;
+
+  &:hover, visited {
+    color: #fff;
+    text-decoration: underline;
+  }
+}
